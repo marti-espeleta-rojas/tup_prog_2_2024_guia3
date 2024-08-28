@@ -9,7 +9,7 @@ namespace Ejercicio4.Models
     abstract public class Prestacion : Persona
     {
         public double MontoTotal { get; private set; }
-        public Prestacion(string nombre, Prestador medico)
+        public Prestacion(string nombre, Prestador medico):base(nombre)
         {
             
         }
